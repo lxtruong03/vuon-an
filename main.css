@@ -1,0 +1,96 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        background-image:url(https://demo18.celltech.vn/media/bg-all-page-EG5EHYJK.webp);
+        font-size: 14px;
+        width: 100%;
+        height: 100%;
+}
+.header {
+    width: 100%;
+    display: block;
+}
+.header__navbar{
+    width: 100%;
+    height: 66px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__listitem{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header__list{
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    height: auto;
+    width: auto;
+}
+.header__item {
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration-style: solid;
+    touch-action: manipulation;
+}
+.header__text {
+
+    height: 60px;
+    width: 100px;
+    padding: 30px 20px 30px 20px;
+    text-decoration: none;
+    outline: 0;
+}
+.header__listimage{
+    height: 66px;
+    width: 160px;
+    float: left;
+}
+.header__image{
+    width: 60px;
+    height: 60px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.header__button{
+    width: 226px;
+    display: flex;
+}
+.header__button__search{
+    width: 40px;
+    height: 40px;
+    background-image: url(https://demo18.celltech.vn/media/ic-tim-kiem-NSPMCWP3.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.header__button__buying{
+    width: 40px;
+    height: 40px;
+    background-image: url(https://demo18.celltech.vn/media/ic-gio-hang-VGKN6ATK.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.header__button__login{
+    width: max-content;
+    height: 40px;
+    cursor: pointer;
+}
